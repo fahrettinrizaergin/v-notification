@@ -1,0 +1,20 @@
+{
+  "name": "v-notification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Fahrettin Rıza Ergin <fahrettinriza@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahrettinrizaergin/v-notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fahrettinrizaergin/v-notification/issues"
+  },
+  "homepage": "https://github.com/fahrettinrizaergin/v-notification#readme",
+  "description": ""
+}
