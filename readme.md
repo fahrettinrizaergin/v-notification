@@ -43,10 +43,20 @@ export default {
   }
 }
 </script>
+```
+### OR
+```js
+// src/main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+import { vRender } from '@fahrettinriza/v-notification'
+import store from './store'
+import './registerServiceWorker'
 
-// Or
-
-Include "import { vRender } from '@fahrettinriza/v-notification'" in the src/main.js file and use it with .use(vRender)
+createApp(App)
+  .use(store)
+  .use(vRender)
+  .mount('#app')
 ```
 
 ### Use of message types
