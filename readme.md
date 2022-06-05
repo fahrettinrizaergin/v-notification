@@ -43,6 +43,10 @@ export default {
   }
 }
 </script>
+
+// Or
+
+Include "import { vRender } from '@fahrettinriza/v-notification'" in the src/main.js file and use it with .use(vRender)
 ```
 
 ### Use of message types
